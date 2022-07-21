@@ -24,20 +24,20 @@
     },
     "courses":[
         {
-            "img":"/",
+            "img":"/assets/course-javascript.png",
             "name": "javascript",
             "features":[
                 "feature goes here",
                 "feature goes here",
                 "feature goes here",
-                "feature goes here"
+                "feature goes there"
             ],
             "content":"course content will go here",
             "action":["buy for 29783 jpy","/"]
         },
         {
-            "img":"/",
-            "name": "javascript",
+            "img":"/assets/course-react-native.png",
+            "name": "react native",
             "features":[
                 "feature goes here",
                 "feature goes here",
@@ -45,11 +45,11 @@
                 "feature goes here"
             ],
             "content":"course content will go here",
-            "action":["buy for 29783 jpy","/"]
+            "action":["buy for 29784 jpy","/"]
         },
         {
-            "img":"/",
-            "name": "javascript",
+            "img":"/assets/course-html-css.png",
+            "name": "html & css",
             "features":[
                 "feature goes here",
                 "feature goes here",
@@ -57,7 +57,7 @@
                 "feature goes here"
             ],
             "content":"course content will go here",
-            "action":["buy for 29783 jpy","/"]
+            "action":["buy for 29785 jpy","/"]
         }
     ],
     "posts":[

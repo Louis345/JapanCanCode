@@ -15,6 +15,10 @@
 
 - write Home page
 
-  - [ ] header
+  - [x] header
+    - [x] menu
   - [ ] body
+    - [ ] courses
+    - [ ] posts
+    - [ ] staff
   - [ ] footer
