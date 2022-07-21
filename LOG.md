@@ -6,3 +6,7 @@
   _e.g. all button actions follow the convension ["",""] where [0]="text" and [1]="link"_
 
 - **JSON** files now load correctly.
+
+# 7.21
+
+- initial setup push to repo
