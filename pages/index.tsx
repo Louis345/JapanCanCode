@@ -1,12 +1,12 @@
 import type { NextPage } from "next";
 import styles from "../styles/Home.module.css";
 
-import Menu from "../components/Menu";
+import Header from "../components/Header";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.main}>
-      <Menu />
+      <Header />
     </div>
   );
 };

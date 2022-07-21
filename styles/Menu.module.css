@@ -1,0 +1,29 @@
+.menu {
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.menu .resources {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 65vw;
+}
+
+.menu .resources a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 15px;
+}
+
+.menu .action {
+    background-color: red;
+    color: whitesmoke;
+    padding: 5px 30px;
+    border-radius: 3px;
+    margin: 0 0 0 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
