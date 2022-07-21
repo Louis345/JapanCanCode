@@ -14,7 +14,7 @@
         "action":["sign up","/signup"]
     },
     "header":{
-        "bg":"assets/header-bg.png",
+        "bg":"/assets/header-bg.png",
         "text":"japan can code",
         "subtext":"learn english and programming and realize your dreams.",
         "actions":[

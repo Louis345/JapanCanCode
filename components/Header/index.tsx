@@ -1,26 +1,27 @@
 import type { NextPage } from "next";
 
+import content from "../../content/HomePage.json";
+
+import styles from "../../styles/Header.module.css";
+
 import Menu from "../Menu";
+
+const { header } = content;
 
 const Header: NextPage = () => {
   return (
-    <div
-      style={{
-        backgroundImage: "url('/assets/header-bg.png')",
-        width: "100vw",
-        height: "500px",
-        display: "flex",
-        flexDirection: "column",
-        // justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
+    <div className={styles.header}>
       <Menu />
-      <div>
-        <h1>Japan Can Code</h1>
-        <p>lorem ipsum dolor sit amet</p>
-        <button>something</button>
-        <button>something</button>
+      <div className={styles.hero}>
+        <h1>{header.text}</h1>
+        <p>{header.subtext}</p>
+        {header.actions.map((action) => {
+          return (
+            <a className={styles.action} href={action[1]}>
+              {action[0]}
+            </a>
+          );
+        })}
       </div>
     </div>
   );
