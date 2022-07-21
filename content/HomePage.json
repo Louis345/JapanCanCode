@@ -1,0 +1,163 @@
+{
+    "menu":{
+        "resources":[
+            ["home","/"],
+            ["pricing","/"],
+            ["courses","/courses"],
+            ["contact","/"],
+            ["instructions","/"]
+        ],
+        "langs":[
+            "en",
+            "jp"
+        ],
+        "action":["sign up","/signup"]
+    },
+    "header":{
+        "bg":"assets/header-bg.png",
+        "text":"japan can code",
+        "subtext":"learn english and programming and realize your dreams.",
+        "actions":[
+            ["apply now","/"],
+            ["about us","/"]
+        ]
+    },
+    "courses":[
+        {
+            "img":"/",
+            "name": "javascript",
+            "features":[
+                "feature goes here",
+                "feature goes here",
+                "feature goes here",
+                "feature goes here"
+            ],
+            "content":"course content will go here",
+            "action":["buy for 29783 jpy","/"]
+        },
+        {
+            "img":"/",
+            "name": "javascript",
+            "features":[
+                "feature goes here",
+                "feature goes here",
+                "feature goes here",
+                "feature goes here"
+            ],
+            "content":"course content will go here",
+            "action":["buy for 29783 jpy","/"]
+        },
+        {
+            "img":"/",
+            "name": "javascript",
+            "features":[
+                "feature goes here",
+                "feature goes here",
+                "feature goes here",
+                "feature goes here"
+            ],
+            "content":"course content will go here",
+            "action":["buy for 29783 jpy","/"]
+        }
+    ],
+    "posts":[
+        {
+            "img":"",
+            "title":"",
+            "text":"",
+            "action":["",""]
+        }
+    ],
+    "reviews":{
+        "title":"",
+        "text":"",
+        "people":[
+            {
+                "img":"",
+                "name":"",
+                "location":"",
+                "text":""
+            },
+            {
+                "img":"",
+                "name":"",
+                "location":"",
+                "text":""
+            },
+            {
+                "img":"",
+                "name":"",
+                "location":"",
+                "text":""
+            }
+        ]
+    },
+    "staff":[
+        {
+            "img":"",
+            "title":"",
+            "text":"",
+            "action":["",""]
+        },
+        {
+            "img":"",
+            "title":"",
+            "text":"",
+            "action":["",""]
+        },
+        {
+            "img":"",
+            "title":"",
+            "text":"",
+            "action":["",""]
+        }
+    ],
+    "label":{
+        "text":"",
+        "action":["",""]
+    },
+    "social":[
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "footer":[
+        {
+            "resource":"",
+            "links":[
+                ["","","","","","","","","","",""]
+            ]
+        },
+        {
+            "resource":"",
+            "links":[
+                ["","","","","","","","","","",""]
+            ]
+        },
+        {
+            "resource":"",
+            "links":[
+                ["","","","","","","","","","",""]
+            ]
+        },
+        {
+            "resource":"",
+            "links":[
+                ["","","","","","","","","","",""]
+            ]
+        },
+        {
+            "resource":"",
+            "links":[
+                ["","","","","","","","","","",""]
+            ]
+        }
+    ]
+}
