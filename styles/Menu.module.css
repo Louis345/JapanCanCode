@@ -1,29 +1,35 @@
 .menu {
     display:flex;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 65px 0;
 }
 
 .menu .resources {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 65vw;
+    width: 75vw;
 }
 
 .menu .resources a {
+    font-size: 30px;
+    
+    color: whitesmoke;
     text-transform: uppercase;
     text-decoration: none;
-    color: whitesmoke;
+    
     margin: 0 15px;
 }
 
 .menu .action {
+    font-size: 25px;
     background-color: red;
-    color: whitesmoke;
-    padding: 5px 30px;
     border-radius: 3px;
-    margin: 0 0 0 25px;
+    
+    color: whitesmoke;
     text-transform: uppercase;
     text-decoration: none;
+
+    padding: 5px 30px;
+    margin: 0 0 0 25px;
 }

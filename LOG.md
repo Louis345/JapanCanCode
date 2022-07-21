@@ -7,6 +7,14 @@
 
 - **JSON** files now load correctly.
 
+[2.35hrs]
+
 # 7.21
 
 - initial setup push to repo
+
+- write Home page
+
+  - [ ] header
+  - [ ] body
+  - [ ] footer

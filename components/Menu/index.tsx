@@ -9,7 +9,7 @@ const { menu } = verbiage;
 const Menu: NextPage = () => {
   return (
     <div className={styles.menu}>
-      {/* resources */}
+      {/* <resources> */}
       <div className={styles.resources}>
         {menu.resources.map((resource, index) => {
           return (
@@ -19,8 +19,9 @@ const Menu: NextPage = () => {
           );
         })}
       </div>
+      {/* </resources> */}
 
-      {/* language */}
+      {/* <language> */}
       <select>
         {menu.langs.map((resource, index) => {
           return (
@@ -30,11 +31,13 @@ const Menu: NextPage = () => {
           );
         })}
       </select>
+      {/* </language> */}
 
-      {/* action */}
+      {/* <action> */}
       <a className={styles.action} href={menu.action[1]}>
         {menu.action[0]}
       </a>
+      {/* </action> */}
     </div>
   );
 };
