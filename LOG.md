@@ -11,17 +11,24 @@
 
 # 7.21
 
-- initial setup push to repo
+- initial setup push to repo.
 
-- write Home page
+- write Home page:
 
   - [x] header
     - [x] menu
   - [ ] body
     - [x] courses
     - [x] posts
+    - [x] reviews
     - [ ] staff
   - [ ] footer
 
 [2.38hrs]
 [1.35hrs]
+
+# 7.22
+
+- [site](https://japancancode.com) is down. Netlify needs configuration.
+
+[56.26min]

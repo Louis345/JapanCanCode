@@ -1,0 +1,34 @@
+.reviews {
+display: flex;
+width: 80%;
+margin: 0 auto 100px;
+}
+
+.reviews .review {
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    margin: 15px 20px;
+    padding: 30px;
+}
+.reviews .review:hover {
+    border-color: red;
+}
+.review > p {
+    line-height: 150%;
+    margin: 15px 5px 0;
+}
+.reviews .review .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviews .review .header > p {
+    text-transform: capitalize;
+}
+.reviews .review .header > p > img {
+    margin-left: 5px;
+}
+.reviews .review .header p span{
+    display: block;
+    color: gray;
+}

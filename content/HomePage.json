@@ -74,30 +74,29 @@
             "action":["contact us","/"]
         }
     ],
-    "reviews":{
-        "title":"",
-        "text":"",
-        "people":[
+    "reviews":[
             {
-                "img":"",
-                "name":"",
-                "location":"",
-                "text":""
+                "img":"/assets/review-viezh.png",
+                "stars": "4.5",
+                "name":"viezh robert",
+                "location":"Los Angeles, CA",
+                "text":"testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!"
             },
             {
-                "img":"",
-                "name":"",
-                "location":"",
-                "text":""
+                "img":"/assets/review-yessica.png",
+                "stars": "4.5",
+                "name":"yessica christy",
+                "location":"Shanxi, China",
+                "text":"testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!"
             },
             {
-                "img":"",
-                "name":"",
-                "location":"",
-                "text":""
-            }
-        ]
-    },
+                "img":"/assets/review-kim.png",
+                "stars": "4.5",
+                "name":"kim young jou",
+                "location":"Seoul, North Korea",
+                "text":"testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!testimonial content goes hre, fill it in!"
+            }    
+    ],
     "staff":[
         {
             "img":"",
