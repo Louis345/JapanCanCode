@@ -18,7 +18,10 @@
   - [x] header
     - [x] menu
   - [ ] body
-    - [ ] courses
-    - [ ] posts
+    - [x] courses
+    - [x] posts
     - [ ] staff
   - [ ] footer
+
+[2.38hrs]
+[1.35hrs]

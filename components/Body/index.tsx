@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 
 import Courses from "../Courses";
+import Posts from "../Posts";
 
 const Body: NextPage = () => {
   return (
@@ -10,6 +11,7 @@ const Body: NextPage = () => {
         Our Courses
       </h2>
       <Courses />
+      <Posts />
     </div>
   );
 };

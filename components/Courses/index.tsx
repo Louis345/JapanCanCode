@@ -6,7 +6,7 @@ import verbiage from "../../content/HomePage.json";
 
 const { courses } = verbiage;
 
-type course = {
+type COURSE = {
   img: string;
   name: string;
   features: string[];
@@ -14,16 +14,16 @@ type course = {
   action: string[];
 };
 
-const Course = ({ course }: { course: course }) => {
+const Course = ({ course }: { course: COURSE }) => {
   return (
     <div className={styles.course}>
       <img src={course.img} />
       <div className={styles.frame}>
         <h2>{course.name}</h2>
         <ul>
-          {course.features.map((feature) => {
+          {course.features.map((feature, index) => {
             return (
-              <li>
+              <li key={`feature-${index}`}>
                 <span>{feature}</span>
               </li>
             );
@@ -39,8 +39,8 @@ const Course = ({ course }: { course: course }) => {
 const Courses: NextPage = () => {
   return (
     <div className={styles.courses}>
-      {courses.map((data) => {
-        return <Course course={data} />;
+      {courses.map((data, index) => {
+        return <Course key={`course-${index}`} course={data} />;
       })}
     </div>
   );

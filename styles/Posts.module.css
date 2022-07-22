@@ -1,0 +1,41 @@
+.posts {
+    background-color: black;
+    color: whitesmoke;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 850px;
+}
+
+.posts .post {
+    display: flex;
+    width: 75%;
+    margin: 10px 0;
+}
+.posts .post img {
+    position: relative;
+    top: -80px;
+    margin: 0 65px 20px;
+    width: 385px;
+    box-shadow: -45px 0 50px -50px #00f;
+}
+.posts .post div h3 {
+    font-size: 36px;
+    margin: 50px 0 10px;
+}
+.posts .post div p {
+    font-size: 18px;
+}
+.posts .post div a {
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 35px;
+    display: inline-block;
+    margin: 10px 0;
+    
+    text-transform: capitalize;
+}

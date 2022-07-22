@@ -62,10 +62,16 @@
     ],
     "posts":[
         {
-            "img":"",
-            "title":"",
-            "text":"",
-            "action":["",""]
+            "img":"/assets/post-0.png",
+            "title":"develop without limits",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "action":["sign up now","/"]
+        },
+        {
+            "img":"/assets/post-1.png",
+            "title":"know our global comunity",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "action":["contact us","/"]
         }
     ],
     "reviews":{
