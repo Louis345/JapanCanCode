@@ -21,7 +21,8 @@
     - [x] courses
     - [x] posts
     - [x] reviews
-    - [ ] staff
+    - [x] staff
+    - [x] label
   - [ ] footer
 
 [2.38hrs]

@@ -1,0 +1,23 @@
+.label {
+    background-color: red;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label p {
+    font-size: 36px;
+    width: 60%;
+}
+
+.label a{
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}

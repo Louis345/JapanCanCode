@@ -4,6 +4,7 @@ import Courses from "../Courses";
 import Posts from "../Posts";
 import Reviews from "../Reviews";
 import Staff from "../Staff";
+import Label from "../Label";
 
 const Body: NextPage = () => {
   return (
@@ -50,6 +51,17 @@ const Body: NextPage = () => {
         </h2>
         <Staff />
       </div>
+      {/* label */}
+      <Label />
+      <img
+        src="/assets/social.png"
+        style={{
+          display: "block",
+          width: "90%",
+          borderBottom: "1px solid purple",
+          margin: "100px auto",
+        }}
+      />
     </div>
   );
 };
