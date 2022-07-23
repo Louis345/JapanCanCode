@@ -17,13 +17,13 @@
 
   - [x] header
     - [x] menu
-  - [ ] body
+  - [x] body
     - [x] courses
     - [x] posts
     - [x] reviews
     - [x] staff
     - [x] label
-  - [ ] footer
+  - [x] footer
 
 [2.38hrs]
 [1.35hrs]
@@ -33,3 +33,7 @@
 - [site](https://japancancode.com) is down. Netlify needs configuration.
 
 [56.26min]
+
+# 7.23
+
+- finish the home page

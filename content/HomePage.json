@@ -121,47 +121,63 @@
         "text":"At JapanCanCode- we offer the most customizable course platform for learning code in Japan.",
         "action":["apply now","/"]
     },
-    "social":[
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
-    ],
     "footer":[
         {
-            "resource":"",
+            "resource":"navigate",
             "links":[
-                ["","","","","","","","","","",""]
+                ["home","/"],
+                ["about","/"],
+                ["contact","/"],
+                ["features","/"],
+                ["faq","/"],
+                ["pricing","/"],
+                ["payment","/"],
+                ["marketing","/"],
+                ["team","/"],
+                ["careers","/"],
+                ["refounds","/"]
             ]
         },
         {
-            "resource":"",
+            "resource":"courses",
             "links":[
-                ["","","","","","","","","","",""]
+                ["react","/"],
+                ["php","/"],
+                ["html","/"],
+                ["css","/"],
+                ["javascript","/"],
+                ["ruby","/"],
+                ["asp.net","/"]
             ]
         },
         {
-            "resource":"",
+            "resource":"information",
             "links":[
-                ["","","","","","","","","","",""]
+                ["about us","/"],
+                ["our team","/"],
+                ["company","/"],
+                ["mission","/"]
             ]
         },
         {
-            "resource":"",
+            "resource":"support",
             "links":[
-                ["","","","","","","","","","",""]
+                ["documentation","/"],
+                ["customizations","/"],
+                ["support policy","/"],
+                ["contact","/"],
+                ["covid-19 resources","/"],
+                ["privacy notice for california users","/"]
             ]
         },
         {
-            "resource":"",
+            "resource":"legal",
             "links":[
-                ["","","","","","","","","","",""]
+                ["terms","/"],
+                ["privacy","/"],
+                ["pre-sales faq","/"],
+                ["success stories","/"],
+                ["testimonials","/"]
             ]
         }
     ]

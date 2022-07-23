@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.footer h4{
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.footer .links {
+    display: flex;
+    flex-direction: column;
+}
+.footer .links a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+}
+
+.copy {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.copy img {
+    margin: 0 50px;
+}
