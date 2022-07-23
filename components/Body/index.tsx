@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import Courses from "../Courses";
 import Posts from "../Posts";
 import Reviews from "../Reviews";
+import Staff from "../Staff";
 
 const Body: NextPage = () => {
   return (
@@ -37,6 +38,18 @@ const Body: NextPage = () => {
         pleasure when learning with JapanCanCode.
       </p>
       <Reviews />
+      <div
+        style={{
+          backgroundColor: "whitesmoke",
+          padding: "50px 0",
+        }}
+      >
+        {/* staff title */}
+        <h2 style={{ fontSize: 70, textAlign: "center", margin: "30px 0" }}>
+          Our <span style={{ color: "red" }}>Tokyo</span> Staff
+        </h2>
+        <Staff />
+      </div>
     </div>
   );
 };

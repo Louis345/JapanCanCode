@@ -9,9 +9,9 @@ const { reviews } = verbiage;
 const Reviews: NextPage = () => {
   return (
     <div className={styles.reviews}>
-      {reviews.map((review) => {
+      {reviews.map((review, index) => {
         return (
-          <div className={styles.review}>
+          <div key={`review-${index}`} className={styles.review}>
             <div className={styles.header}>
               <img src={review.img} />
               <p>

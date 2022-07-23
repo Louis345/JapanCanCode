@@ -99,22 +99,22 @@
     ],
     "staff":[
         {
-            "img":"",
-            "title":"",
-            "text":"",
-            "action":["",""]
+            "img":"/assets/staff-0.png",
+            "title":"member 1",
+            "text":"content goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team.",
+            "action":["learn more","/"]
         },
         {
-            "img":"",
-            "title":"",
-            "text":"",
-            "action":["",""]
+            "img":"/assets/staff-1.png",
+            "title":"member 2",
+            "text":"content goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team.",
+            "action":["learn more","/"]
         },
         {
-            "img":"",
-            "title":"",
-            "text":"",
-            "action":["",""]
+            "img":"/assets/staff-2.png",
+            "title":"member 3",
+            "text":"content goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team.",
+            "action":["learn more","/"]
         }
     ],
     "label":{
