@@ -100,21 +100,63 @@
     "staff":[
         {
             "img":"/assets/staff-0.png",
-            "title":"member 1",
+            "name":"member 1",
             "text":"content goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team.",
-            "action":["learn more","/"]
+            "action":["learn more","/"],
+            "title":"how an e-commerce entrepreneur and dad became a web developer",
+            "position": "full stack developer, xenon partners",
+            "modal":[
+                {
+                    "title":"when did you decicde to learn programming?",
+                    "text":[
+                        "A long time ago, in the age before even the birth of Windows XP, I graduated university with a degree in software engineering. But sadly I didn't continue programming for long after that.",
+                        "I started learning to code again only a few years ago when I landed the chance to become a Salesforce developer at a global insurance company. With that opportunity, I learned the Apex programming language, but I lacked the knowledge needed to build an app from scratch.",
+                        "A long time ago, in the age before even the birth of Windows XP, I graduated university with a degree in software engineering. But sadly I didn't continue programming for long after that. "
+                    ]
+                },
+                {
+                    "title":"lorem ipsum header text here",
+                    "text":[
+                        "A long time ago, in the age before even the birth of Windows XP, I graduated university with a degree in software engineering. But sadly I didn't continue programming for long after that.",
+                        "I started learning to code again only a few years ago when I landed the chance to become a Salesforce developer at a global insurance company. With that opportunity, I learned the Apex programming language, but I lacked the knowledge needed to build an app from scratch."
+                    ]
+                }
+            ]
         },
         {
             "img":"/assets/staff-1.png",
-            "title":"member 2",
+            "name":"member 2",
             "text":"content goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team.",
-            "action":["learn more","/"]
+            "action":["learn more","/"],
+            "title":"how an e-commerce entrepreneur and dad became a web developer",
+            "position": "full stack developer, xenon partners",
+            "modal":[
+                {
+                    "title":"when did you decicde to learn programming?",
+                    "text":[
+                        "A long time ago, in the age before even the birth of Windows XP, I graduated university with a degree in software engineering. But sadly I didn't continue programming for long after that.",
+                        "I started learning to code again only a few years ago when I landed the chance to become a Salesforce developer at a global insurance company. With that opportunity, I learned the Apex programming language, but I lacked the knowledge needed to build an app from scratch."
+                    ]
+                }
+            ]
         },
         {
             "img":"/assets/staff-2.png",
-            "title":"member 3",
+            "name":"member 3",
             "text":"content goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team membercontent goes here about team.",
-            "action":["learn more","/"]
+            "action":["learn more","/"],
+            "title":"how an e-commerce entrepreneur and dad became a web developer",
+            "position": "full stack developer, xenon partners",
+            "modal":[
+                {
+                    "title":"when did you decicde to learn programming?",
+                    "text":[
+                        "A long time ago, in the age before even the birth of Windows XP, I graduated university with a degree in software engineering. But sadly I didn't continue programming for long after that.",
+                        "I started learning to code again only a few years ago when I landed the chance to become a Salesforce developer at a global insurance company. With that opportunity, I learned the Apex programming language, but I lacked the knowledge needed to build an app from scratch.",
+                        "A long time ago, in the age before even the birth of Windows XP, I graduated university with a degree in software engineering. But sadly I didn't continue programming for long after that. "
+                    ]
+                }
+            ]
         }
     ],
     "label":{

@@ -35,3 +35,46 @@
     display: block;
     margin-top: 20px;
 }
+
+.modal {
+    width: 670px;
+    background-color: white;
+    
+    position: sticky;
+    left: 25%;
+    bottom: 25%;
+}
+.modal > h3{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.modal .content {
+    padding: 30px;
+}
+.modal .content > h5 {
+    font-size: 30px;
+    color:red;
+    margin: 20px 0;
+}
+.modal .content .header{
+    display: flex;
+}
+.modal .content .header > img {
+    width: 200px;
+    margin-right: 20px;
+}
+.modal .content .header .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.modal .content .header .profile h5 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
