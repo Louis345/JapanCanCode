@@ -1,0 +1,12 @@
+{
+    "header":{
+        "bg":"/assets/courses-bg.png",
+        "text":"courses",
+        "subtext":"get to know the team at JapanCanCode.com"
+    },
+    "body":{
+        "title":"Easy to learn programming courses taught by our leading instructors in Japan.",
+        "text":"With the belief that our students need a strong ecosystem of support to be successful, we have also created an ecosystem for JapanCanCode Communities that include people with different expertise and backgrounds to help with our growth.",
+        "image":"/assets/courses-image.png"
+    }
+}

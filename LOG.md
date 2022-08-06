@@ -39,3 +39,10 @@
 - finish the home page
 
 [1.17hrs]
+
+# 8.5
+
+- finish the homepage `Modal`
+- ~~style for mobile~~
+- finish desktop views
+- Courses page
