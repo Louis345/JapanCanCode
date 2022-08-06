@@ -1,5 +1,5 @@
 .header {
-    background-image: url('/assets/header-bg.png'); /* TODO: read from json */
+    background-image: radial-gradient(rgba(0,0,0,0.5), rgba(30,30,30,0.5)), url('/assets/header-bg.png'); /* TODO: read from json */
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
