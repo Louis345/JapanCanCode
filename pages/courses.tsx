@@ -6,7 +6,7 @@ import styles from "../styles/CoursesPage.module.css";
 
 import Menu from "../components/Menu";
 
-const { header, body } = verbiage;
+const { header, body, courses } = verbiage;
 
 const Courses: NextPage = () => {
   return (
@@ -28,6 +28,20 @@ const Courses: NextPage = () => {
           <p>{body.text}</p>
         </div>
         <img src={body.image} />
+      </div>
+      {/* courses */}
+      <div className={styles.courses}>
+        {courses.map((co) => (
+          <div key={co.name} className={styles.course}>
+            <img src={co.img} />
+            <div>
+              <h3>{co.name}</h3>
+              <h4>{co.price}</h4>
+              <p>{co.description}</p>
+              <a href={co.action[1]}>{co.action[0]}</a>
+            </div>
+          </div>
+        ))}
       </div>
     </>
   );
