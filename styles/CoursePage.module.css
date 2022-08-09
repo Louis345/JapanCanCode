@@ -1,0 +1,83 @@
+.header {
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 866px;
+}
+
+.header .hero {
+   text-align: center;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 70%;
+
+   
+   color: whitesmoke;
+}
+.header .hero h1{
+   font-size: 72px;
+   font-family: 'Poppins', sans-serif;
+   letter-spacing: 2px;
+   
+   text-transform: uppercase;
+   font-weight: bolder;
+}
+.header .hero p {
+   font-size: 40px;
+   text-transform: capitalize;
+   padding: 0 50px;
+}
+
+.body {
+   display: flex;
+   width: 90%;
+   justify-content: center;
+   align-items: center;
+   margin: 50px 0;
+}
+.body img {
+   width: 30%;
+}
+.body > div {
+   width: 30%;
+   padding: 30px 80px;
+}
+.body > div h3 {
+   font-size: 30px;
+}
+.body > div p {
+   text-align: justify;
+   margin: 20px 0;
+   font-size: 18px;
+}
+
+.details {
+   width: 80%;
+   margin: 20px auto;
+   text-align: justify;
+   font-size: 20px;
+   line-height: 40px;
+}
+
+.help {
+   display: flex;
+   flex-direction: column;
+   padding: 50px;
+   text-align: center;
+   align-items: center;
+   background-color: #F7FAFE;
+}
+.help > h2 {
+   color: red;
+   font-size: 65px;
+}
+.help h3 {
+   font-size: 35px;
+}
+.help p {
+   width: 65%;
+   font-size: 25px;
+}
