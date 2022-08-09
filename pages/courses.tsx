@@ -5,8 +5,10 @@ import verbiage from "../content/CoursesPage.json";
 import styles from "../styles/CoursesPage.module.css";
 
 import Menu from "../components/Menu";
+import Label from "../components/Label";
+import Footer from "../components/Footer";
 
-const { header, body, courses } = verbiage;
+const { header, body, courses, features, help } = verbiage;
 
 const Courses: NextPage = () => {
   return (
@@ -43,6 +45,26 @@ const Courses: NextPage = () => {
           </div>
         ))}
       </div>
+      {/* features */}
+      <div className={styles.features}>
+        {features.map((feature, index) => {
+          return (
+            <div key={index} className={styles.feature}>
+              <img src={feature.img} />
+              <h3>{feature.title}</h3>
+              <p>{feature.text}</p>
+            </div>
+          );
+        })}
+      </div>
+      {/* help */}
+      <div className={styles.help}>
+        <h2>Need Help?</h2>
+        <h3>{help.title}</h3>
+        <p>{help.text}</p>
+      </div>
+      <Label />
+      <Footer />
     </>
   );
 };

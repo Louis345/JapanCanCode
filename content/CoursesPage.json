@@ -73,5 +73,26 @@
             "action":["apply now","/"],
             "img":"/assets/course-html-css.png"
         }
-    ]
+    ],
+    "features": [
+        {
+            "title":"title 1",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "img":"/assets/courses-feature.png"
+        },
+        {
+            "title":"title 2",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "img":"/assets/courses-feature.png"
+        },
+        {
+            "title":"title 3",
+            "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+            "img":"/assets/courses-feature.png"
+        }
+    ],
+    "help":{
+        "title":"We offer tuition assitance to those that need it.",
+        "text":"92% of our students are provided tuition assistance which results in most of our students enrolling in their program for FREE. Learn more about our scholarships and assistance opportunities!"
+    }
 }

@@ -46,3 +46,9 @@
 - ~~style for mobile~~
 - finish desktop views
 - Courses page
+
+[1.31hrs]
+
+# 8.9
+
+- finish Courses page

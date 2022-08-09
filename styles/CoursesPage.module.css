@@ -93,3 +93,42 @@
    
    text-transform: capitalize;
 }
+.features {
+   display: flex;
+   justify-content: center;
+   padding: 60px 0;
+}
+.features .feature {
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.features .feature img{
+   width: 30%;
+   margin: 0 auto;
+}
+.features .feature h3 {
+   font-size: 30px;
+   margin: 10px 0;
+}
+
+.help {
+   display: flex;
+   flex-direction: column;
+   padding: 50px;
+   text-align: center;
+   align-items: center;
+   background-color: #F7FAFE;
+}
+.help > h2 {
+   color: red;
+   font-size: 65px;
+}
+.help h3 {
+   font-size: 35px;
+}
+.help p {
+   width: 65%;
+   font-size: 25px;
+}

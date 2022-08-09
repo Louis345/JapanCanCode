@@ -12,11 +12,15 @@ const Footer: NextPage = () => {
       <div className={styles.footer}>
         {footer.map((resource) => {
           return (
-            <div>
+            <div key={resource.resource}>
               <h4>{resource.resource}</h4>
               <div className={styles.links}>
                 {resource.links.map((link) => {
-                  return <a href={link[1]}>{link[0]}</a>;
+                  return (
+                    <a href={link[1]} key={link[0]}>
+                      {link[0]}
+                    </a>
+                  );
                 })}
               </div>
             </div>
