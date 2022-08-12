@@ -11,7 +11,7 @@
             "en",
             "jp"
         ],
-        "action":["sign up","/signup"]
+        "action":["sign up","/boarding"]
     },
     "header":{
         "bg":"/assets/header-bg.png",

@@ -52,3 +52,15 @@
 # 8.9
 
 - finish Courses page
+- finish single Course page
+
+[1.45hrs]
+
+# 8.11
+
+- create on boarding page
+
+# 8.12
+
+- should courses be saved into json files?
+- finish onboarding flow

@@ -1,0 +1,81 @@
+.header {
+   background-image: radial-gradient(rgba(0,0,0,0.5), rgba(30,30,30,0.5)), url('/assets/boarding-bg.png'); /* TODO: read from json? */
+   background-repeat: no-repeat;
+   background-position: center right;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 866px;
+}
+
+.header .hero {
+   text-align: center;
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 70%;
+
+   
+   color: whitesmoke;
+}
+.header .hero h1{
+   font-size: 72px;
+   font-family: 'Poppins', sans-serif;
+   letter-spacing: 2px;
+   
+   text-transform: uppercase;
+   font-weight: bolder;
+}
+.header .hero p {
+   font-size: 40px;
+   text-transform: capitalize;
+   width: 720px;
+}
+
+.body {
+   display: flex;
+}
+.body .minimap {
+   background-color: black;
+   color: whitesmoke;
+   padding: 50px;
+   flex: 1;
+}
+.body .minimap .quote {
+   background-color: white;
+   color: black;
+   margin: 50px 0;
+   padding: 15px 25px;
+}
+
+.body .current {
+   width: 75%;
+   padding: 10px 50px;
+}
+.body .current .head {
+   display: flex;
+   justify-content: space-between;
+}
+.body .current .state {
+   width: 50%;
+   font-size: 20px;
+}
+.body .current .state form {
+   display: flex;
+   flex-wrap: wrap;
+}
+.body .current .state form .input {
+   display: flex;
+   flex-direction: column;
+   width: 45%;
+   margin-right: 5%;
+}
+.body .current .state form .input input {
+   font-size: 15px;
+   margin: 10px 0;
+   border: none;
+   border-bottom: 2px solid darkgray;
+
+}

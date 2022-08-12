@@ -28,7 +28,7 @@
             "name":"html5",
             "price":"12345jpy",
             "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-            "action":["apply now","/"],
+            "action":["apply now","/course"],
             "img":"/assets/course-html-css.png"
         },
         {
